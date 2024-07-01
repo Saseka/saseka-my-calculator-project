@@ -1,8 +1,8 @@
 # saseka-my-calculator-project
 1.Project summary
 HTML
-html
-Copy code
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,7 +25,7 @@ Copy code
 </html>
 CSS (styles.css)
 css
-Copy code
+
 body {
     font-family: Arial, sans-serif;
     display: flex;
@@ -72,7 +72,7 @@ button:hover {
 }
 JavaScript (script.js)
 javascript
-Copy code
+
 function calculatePercentage() {
     const number = parseFloat(document.getElementById('number').value);
     const percentage = parseFloat(document.getElementById('percentage').value);
@@ -87,6 +87,10 @@ Explanation
 HTML: Sets up the basic structure with two input fields for the number and percentage, a button to calculate, and a div to display the result.
 CSS: Styles the layout to center the calculator, with a clean and simple design.
 JavaScript: Defines the function calculatePercentage to compute the percentage and display the result or an error message.
+
+
+![ERD_diagram (1)](https://github.com/Saseka/saseka-my-calculator-project/assets/170074891/7af6b725-2c8f-40d7-8706-08cad254cfc8)
+
 
 
 
